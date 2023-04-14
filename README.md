@@ -26,10 +26,13 @@ The Tour of Heroes application helps a staffing agency manage its stable of hero
 
 The finished application:
 
+- Search a hero
+- Delete a hero
+- Upgrades a hero
 - Gets a list of heroes
-- Displays the heroes in a list
-- Edits a selected hero's details
-- Navigates between different views of heroic data
+- Show details of a hero
+- Shows hero changes message
+- Edits the details of a selected hero
 
 <a id="execution"></a><br>
 
