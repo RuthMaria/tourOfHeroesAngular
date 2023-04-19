@@ -5,4 +5,10 @@
   </a>
 </div>
 
-<app-hero-search />
+<!--
+  Através da definição dessa variável #searchProp eu posso acessar as
+  propriedades e métodos do componente hero-search. Então, eu poderia
+  acessar o método search desse componente acessando ele como
+  searchProp.search() aqui no template do dasboard
+-->
+<app-hero-search #searchProp/>

@@ -12,6 +12,7 @@ import { HeroService } from '../hero.service';
 })
 export class HeroDetailComponent {
   @Input() hero?: Hero;
+  @Input('master') masterName? = ''; // está renomeando a prop masterName, então quando este componente for chamado deve-se passar a prop master e não masterName
 
   constructor(
     private route: ActivatedRoute,
